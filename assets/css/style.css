@@ -5,8 +5,8 @@
 *{
     margin: 0;
     padding: 0;
+    outline: none;
     scroll-behavior: smooth;
-
 }
 body {
     font-family: 'Quicksand';
@@ -61,7 +61,7 @@ body > main > main.main1 > div.div1 >div.texts > div.under-btn{
     padding: 2.5vh 0;
     animation: up 2s 1;
 }
-body > main > main.main1 > div.div1 >div.texts > div.button > button.button{
+body > main > main.main1 > div.div1 >div.texts > div.button > a > button.button{
     padding: 2.5vh 2.5vw;
     background: linear-gradient(285.12deg, #136AB9 8.76%, #52CCDE 133.39%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 5px 2px 10px rgba(0, 0, 0, 0.25);
@@ -73,7 +73,7 @@ body > main > main.main1 > div.div1 >div.texts > div.button > button.button{
     transition: .5s ease-in-out;
     animation: up 1.8s 1;
 }
-body > main > main.main1 > div.div1 >div.texts > div.button > button.button:hover{
+body > main > main.main1 > div.div1 >div.texts > div.button > a > button.button:hover{
     border-radius: 30px;
 }
 body > main > main.main1 > div.div2 > img.img {

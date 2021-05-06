@@ -10,9 +10,6 @@
 a{
     text-decoration: none;
 }
-li{
-    list-style-type:none ;
-}
 body > main{
     margin: 10vh 10vw;
 }
@@ -40,14 +37,23 @@ body > main > main.main1 > div.categories > p{
     font-family: 'Quicksand';
     transition: .5s;
  }
- body > main > main.main1 > div.categories >ul > a > li{
+ body > main > main.main1 > div.categories > a > button{
      background-color: #EDEDED;
      padding: 2.5vh;
      border-radius: 30px;
      color: #000000;
      font-family: 'Poppins';
      text-align: center;
-
+     transition: ease-in-out .5s;
+     border: none;
+     min-width: 20vw;
+     cursor: pointer;
+ }
+ body > main > main.main1 > div.categories > a > button:hover{
+    background: linear-gradient(285.12deg, #136AB9 8.76%, #52CCDE 133.39%);
+    color: #ffffff;
+    border-radius: 10px;
+    transition: ease-out .5s;
  }
  body > main > main.main1 > div.pic > img.pic {
      height: 60vh;
